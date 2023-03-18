@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <style>
+        .animated-dancer {
+            animation: dance 1s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes dance {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(20deg); }
+            50% { transform: rotate(0deg); }
+            75% { transform: rotate(-20deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .message {
+            text-align: center;
+            font-size: 24px;
+            color:#00ff40 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Tu mensaje ha sido registrado con éxito!
+    </div>
+    <p style="text-align:center;"><span class="animated-dancer">&#x1F57A;</span></p>
+</body>
+</html>
